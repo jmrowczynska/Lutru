@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lutru</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar navbar-expand-md position-fixed top-0 w-100 solid" id="header">
+            <a href="index.html" class="nav-link">
+                <img src="logo.png" alt="Logo ">
+                Lutru
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto gap-3">
+                    <li class="nav-item"><a class="nav-link" href="cennik.html">Cennik</a></li>
+                    <li class="nav-item"><a class="nav-link" href="uslugi.html">Usługi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pomoc.html">Pomoc</a></li>
+                    <li class="nav-item"><a class="nav-link" id="login" href="login.html">Zaloguj się</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+        <section id="uslugi" class="pt-4">
+            <div class="container py-5">
+                <h1 class="section-title pb-4 text-center">Dodatkowe usługi</h1>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card-plan h-100">
+                            <h2>Certyfikat SSL</h2>
+                            <ul>
+                                <li>Szyfrowanie danych</li>
+                                <li>Zielona kłódka</li>
+                                <li>Wyższe SEO</li>
+                            </ul>
+                            <p class="price">10 zł / rok</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card-plan h-100">
+                            <h2>Kopia zapasowa</h2>
+                            <ul>
+                                <li>Backup co godzinę</li>
+                                <li>Przywracanie 1 klikiem</li>
+                                <li>30 dni historii</li>
+                            </ul>
+                            <p class="price">20 zł / rok</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card-plan h-100">
+                            <h2>Kreator stron</h2>
+                            <ul>
+                                <li>Drag and drop</li>
+                                <li>100+ szablonów</li>
+                                <li>Bez kodowania</li>
+                            </ul>
+                            <p class="price">39 zł / rok</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="card-plan h-100">
+                            <h2>Ochrona DDoS</h2>
+                            <ul>
+                                <li>Filtrowanie ruchu</li>
+                                <li>Monitoring 24/7</li>
+                                <li>Automatyczna ochrona</li>
+                            </ul>
+                            <p class="price">29 zł / rok</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="text-center mb-5">
+            <a href="index.html#uslugi" class="link">Wróć do strony głównej</a>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 line" id="footer-reg">
+                    <h3>Lutru Hosting</h3>
+                    <a href="regulamin.html" class="footer-link">Regulamin</a>
+                    <p>©2026 Lutru. Wszelkie prawa zastrzeżone.</p>
+                </div>
+
+                <div class="col-12 col-md-4 line">
+                    <h3>Social media</h3>
+                    <a href="https://www.instagram.com/" class="footer-link">Instagram</a>
+                    <a href="https://www.youtube.com/" class="footer-link">YouTube</a>
+                    <a href="https://x.com/" class="footer-link">X (Twitter)</a>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <h3>Potrzebujesz więcej informacji?</h3>
+                    <a href="pomoc.html" class="footer-link">Centrum pomocy</a>
+                    <a href="cennik.html" class="footer-link">Zobacz pełen cennik</a>
+                    <a href="uslugi.html" class="footer-link">Zobacz wszystkie usługi</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
